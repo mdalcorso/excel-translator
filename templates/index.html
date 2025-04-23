@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Excel Translator</title></head>
+<body>
+    <h2>Traduzione Excel – GPT</h2>
+    <form action="/" method="post" enctype="multipart/form-data">
+        File Excel: <input type="file" name="file" required><br><br>
+        Nome Sheet: <input type="text" name="sheet" value="Entities"><br>
+        Riga Inizio: <input type="number" name="start" value="650"><br>
+        Riga Fine: <input type="number" name="end" value="700"><br>
+        Colonna da tradurre (es. POL): <input type="text" name="lang_col" value="POL"><br><br>
+        <input type="submit" value="Traduci">
+    </form>
+</body>
+</html>
